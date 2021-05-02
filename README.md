@@ -1,2 +1,3 @@
-# vscode
-The VSCode extention for meml
+# Fushra meml
+
+Meml syntax highlighting in vscode.

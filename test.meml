@@ -1,0 +1,22 @@
+(import (nav) from "./nav.meml")
+
+// Lets define a sample component
+(component helloComponent (name)
+  (p "Hello " name ". This comes from a component!")
+)
+// The rest of the file
+(
+  head
+    (title "Hello World!")
+)
+// This is a comment
+(
+  body
+    (nav)
+    (p "Basic website made with MEML!")
+    (p "1 + 2 = " 1 + 2)
+    (p "BODMAS: " 5 - 5 * 5 + 5)
+    (helloComponent name="TrickyPR")
+)
+
+(export (helloComponent))
