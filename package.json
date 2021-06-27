@@ -5,6 +5,7 @@
   "publisher": "Fushra",
   "version": "0.0.1",
   "repository": "https://github.com/fushra/vscode",
+  "icon": "./images/meml.png",
   "engines": {
     "vscode": "^1.55.0"
   },

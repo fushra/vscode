@@ -8,6 +8,10 @@ Official MEML vscode extension.
 
 ## Features
 
-Syntax highlighting
+### Syntax highlighting
 
-![Syntax highlighting screenshot](./SyntaxScreenshot.png)
+![Syntax highlighting screenshot](./images/SyntaxScreenshot.png)
+
+### Snippets
+
+![Snippets](./images/snippets.gif)
