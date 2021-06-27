@@ -1,26 +1,42 @@
 {
-    "name": "meml",
-    "displayName": "MEML",
-    "description": "MEML support for VSCode",
-    "publisher": "Fushra",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "categories": [
-        "Programming Languages"
+  "name": "meml",
+  "displayName": "MEML",
+  "description": "MEML support for VSCode",
+  "publisher": "Fushra",
+  "version": "0.0.1",
+  "repository": "https://github.com/fushra/vscode",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "categories": [
+    "Programming Languages", "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "meml",
+        "aliases": [
+          "MEML",
+          "meml"
+        ],
+        "extensions": [
+          ".meml"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [{
-            "id": "meml",
-            "aliases": ["MEML", "meml"],
-            "extensions": [".meml"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "meml",
-            "scopeName": "source.meml",
-            "path": "./syntaxes/meml.tmLanguage"
-        }]
-    }
+    "grammars": [
+      {
+        "language": "meml",
+        "scopeName": "source.meml",
+        "path": "./syntaxes/meml.tmLanguage"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "meml",
+        "path": "./snippets.json"
+      }
+    ]
+  }
 }
